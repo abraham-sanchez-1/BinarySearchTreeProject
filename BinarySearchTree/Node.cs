@@ -9,11 +9,15 @@ namespace BinarySearchTree
     public class Node
     {
         //member variable
-        public int data { get; set; }
-        public Node left { get; set; }
-        public Node right { get; set; }
+        public int data;
+        public Node left;
+        public Node right;
 
         //constructor
+        public Node()
+        {
+           
+        }
         public Node(int data)
         {
             this.data = data;
